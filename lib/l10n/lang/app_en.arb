@@ -1,0 +1,43 @@
+{
+  "sayHiTo": "Chào mừng \n{value}",
+  "@sayHiTo": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "invalid_email": "Email không được bỏ trống!",
+  "invalid_password": "Mật khẩu không được bỏ trống!",
+  "login_userName_labelText" : "Email:",
+  "login_password_labelText" : "Password:",
+  "login_userName_hint" : "Email",
+  "login_password_hint" : "Password",
+  "remember_login" : "Remember me",
+  "login_button_text" : "Login",
+  "splash_pls_waiting" : "Please wait",
+  "save_text" : "Save",
+  "edit_text" : "Edit",
+  "change_avatar_picture" : "Change profile picture",
+  "fullName_User_hint" : "Full name",
+  "dateOfBirth_User_hint" : "D.O.B",
+  "role_User_hint" : "Role",
+  "phoneNumber_User_hint" : "Phone number",
+  "email_User_hint" : "Email",
+  "my_profile" : "My profile",
+  "location_User_hint" : "Location",
+  "edit_profile" : "Edit profile",
+  "policy" : "Policy",
+  "help_sp" : "Help and Support",
+  "setting" : "Setting",
+  "flight_schedule" : "Flight Schedule",
+  "departure" : "Departure",
+  "arrival" : "Arrival",
+  "search" : "Search",
+  "welcome" : "Welcome,",
+  "flightInfo": "flight Info",
+  "passenger": "Passenger",
+  "briefing": "Briefing",
+  "gD": "GD",
+  "flightHistory": "Flight History"
+}

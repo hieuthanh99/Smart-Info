@@ -1,0 +1,90 @@
+name: smart_info
+description: SmartInfo
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  base_core:
+    path: package/base_core
+
+  local_services:
+    path: package/local_services
+
+  base_ui:
+    path: package/base_ui
+
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.2
+  dio: ^4.0.6
+  logger: ^1.1.0
+  flutter_localizations:
+    sdk: flutter
+  json_annotation: ^4.8.0
+  flutter_spinkit: ^5.1.0
+  intl: any
+  freezed_annotation: ^2.2.0
+  get_it: ^7.2.0
+  flutter_svg: ^2.0.2
+  get: ^4.6.5
+  equatable: ^2.0.5
+  chucker_flutter: any
+  lottie: ^2.3.2
+  cached_network_image: ^3.2.3
+  shimmer: ^3.0.0
+  file_picker: ^5.2.6
+  shared_preferences: ^2.0.18
+  syncfusion_flutter_charts: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_gen_runner: ^5.2.0
+  build_runner: ^2.3.3
+  flutter_lints: ^2.0.1
+  json_serializable: ^6.6.1
+  freezed: ^2.3.2
+
+flutter:
+  generate: true
+
+  uses-material-design: true
+
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,43 @@
+{
+  "sayHiTo": "Chào mừng \n{value}",
+  "@sayHiTo": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "invalid_email": "Email không được bỏ trống!",
+  "invalid_password": "Mật khẩu không được bỏ trống!",
+  "login_userName_labelText": "Email:",
+  "login_password_labelText": "Mật khẩu:",
+  "login_userName_hint": "Email",
+  "login_password_hint": "Mật khẩu",
+  "remember_login": "Nhớ mật khẩu",
+  "login_button_text": "Đăng nhập",
+  "splash_pls_waiting": "Vui lòng đợi",
+  "save_text": "Lưu",
+  "edit_text": "Sửa",
+  "change_avatar_picture": "Thay đổi ảnh hồ sơ",
+  "fullName_User_hint": "Họ tên",
+  "dateOfBirth_User_hint": "Ngày sinh",
+  "role_User_hint": "Vị trí",
+  "phoneNumber_User_hint": "Số điện thoại",
+  "email_User_hint": "Email",
+  "my_profile": "Hồ sơ của tôi",
+  "location_User_hint": "Vị trí",
+  "edit_profile": "Sửa thông tin",
+  "policy": "Chính sách",
+  "help_sp": "Trợ giúp",
+  "setting": "Cài đặt",
+  "flight_schedule": "Lịch bay",
+  "departure": "Khởi hành",
+  "arrival": "Điểm đến",
+  "search": "Tìm kiếm",
+  "welcome": "Chào,",
+  "flightInfo": "Thông tin chuyến bay",
+  "passenger": "Hành khách",
+  "briefing": "Cuộc họp",
+  "gD": "GD",
+  "flightHistory": "Lịch sử chuyến bay"
+}

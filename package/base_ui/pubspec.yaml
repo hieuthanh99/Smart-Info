@@ -1,0 +1,63 @@
+name: base_ui
+description: UI element.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  base_core:
+    path: ../base_core
+
+  flick_video_player: ^0.5.0
+  flutter_animated_dialog: ^2.0.1
+  flutter_spinkit: ^5.1.0
+  flutter_svg: ^2.0.2
+  fluttertoast: ^8.2.1
+  get: ^4.6.5
+  lottie: ^2.3.2
+  photo_view: ^0.14.0
+  top_snackbar_flutter: ^3.0.0+1
+  url_launcher: ^6.1.11
+  cached_network_image: ^3.2.3
+  shimmer: ^3.0.0
+  dropdown_button2: ^2.0.0
+  intl: any
+  syncfusion_flutter_charts: any
+  configurable_expansion_tile_null_safety: ^3.1.1
+
+dev_dependencies:
+  build_runner: ^2.3.3
+  flutter_gen_runner: ^5.3.1
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+
+    - family: Nunito_Sans
+      fonts:
+        - asset: assets/fonts/nutritosans/NunitoSans_10pt-Medium.ttf
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/anim/
+
+flutter_gen:
+  assets:
+    enabled: true
+    outputs:
+      class_name: Assets
+      package_parameter_enabled: true
