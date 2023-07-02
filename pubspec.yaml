@@ -20,6 +20,11 @@ dependencies:
   base_ui:
     path: package/base_ui
 
+  flutter_base:
+    git:
+      url: https://github.com/NamTran20102/flutter_base.git
+      ref: main
+
   cupertino_icons: ^1.0.2
   flutter_bloc: ^8.1.2
   dio: ^4.0.6

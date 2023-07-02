@@ -16,7 +16,8 @@ class DropdownCheckBoxTile<T extends MenuItemValue> extends StatefulWidget {
     this.onItemTap,
     this.listItemSelected,
     this.onAddAll,
-    this.height, this.heightChildren,
+    this.height,
+    this.heightChildren,
   }) : super(key: key);
 
   final ScrollController scrollController;
@@ -42,9 +43,11 @@ class _DropdownCheckBoxTileState<T extends MenuItemValue>
   }
 
   void sortListByAlphabetically() {
-    widget.listItem?.sort((a, b) => a.valueItem().toUpperCase().compareTo(
-          b.valueItem().toUpperCase(),
-        ));
+    widget.listItem?.sort(
+      (a, b) => a.valueItem().toUpperCase().compareTo(
+            b.valueItem().toUpperCase(),
+          ),
+    );
   }
 
   @override
@@ -91,7 +94,8 @@ class _DropdownCheckBoxTileState<T extends MenuItemValue>
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 3),
               child: AppCheckboxTile(
-                value: widget.listItemSelected?.length == widget.listItem?.length,
+                value:
+                    widget.listItemSelected?.length == widget.listItem?.length,
                 title: 'Tất cả',
                 onTap: () {
                   setState(() {

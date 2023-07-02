@@ -10,12 +10,6 @@
 class FontFamily {
   FontFamily._();
 
-  /// Font family: Montserrat
-  static const String montserrat = 'Montserrat';
-
-  /// Font family: Nunito_Sans
-  static const String nunitoSans = 'Nunito_Sans';
-
-  /// Font family: Poppins
-  static const String poppins = 'Poppins';
+  /// Font family: Averta_Std_CY
+  static const String avertaStdCY = 'Averta_Std_CY';
 }

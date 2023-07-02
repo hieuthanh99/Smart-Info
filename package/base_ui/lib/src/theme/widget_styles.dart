@@ -1,8 +1,8 @@
 part of 'theme.dart';
 
 const _fontPackage = 'base_ui';
-const _primaryFontFamily = FontFamily.montserrat;
-const _appFontFamily = FontFamily.nunitoSans;
+const _primaryFontFamily = FontFamily.avertaStdCY;
+const _appFontFamily = FontFamily.avertaStdCY;
 const _primaryTextColor = Color(0xff1e1e1e);
 
 const TextTheme _appTextTheme = TextTheme(
@@ -380,7 +380,7 @@ class AppTextStyle {
     package: _fontPackage,
     fontFamily: _appFontFamily,
     fontSize: 16,
-    fontWeight: FontWeight.w800,
+    fontWeight: FontWeight.w600,
     color: _primaryTextColor,
   );
 
@@ -404,7 +404,7 @@ class AppTextStyle {
     package: _fontPackage,
     fontFamily: _appFontFamily,
     fontSize: 14,
-    fontWeight: FontWeight.w800,
+    fontWeight: FontWeight.w600,
     color: _primaryTextColor,
   );
 
@@ -428,7 +428,7 @@ class AppTextStyle {
     package: _fontPackage,
     fontFamily: _appFontFamily,
     fontSize: 12,
-    fontWeight: FontWeight.w800,
+    fontWeight: FontWeight.w600,
     color: _primaryTextColor,
   );
 

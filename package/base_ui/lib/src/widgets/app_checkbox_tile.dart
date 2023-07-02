@@ -1,6 +1,5 @@
+import 'package:base_ui/base_ui.dart';
 import 'package:flutter/material.dart';
-
-import '../../base_ui.dart';
 
 class AppCheckboxTile<T extends MenuItemValue> extends StatelessWidget {
   const AppCheckboxTile({
@@ -21,7 +20,7 @@ class AppCheckboxTile<T extends MenuItemValue> extends StatelessWidget {
       child: SizedBox(
         height: 42,
         child: Card(
-          margin: const EdgeInsets.only(top: 0,bottom: 0),
+          margin: const EdgeInsets.only(top: 0, bottom: 0),
           elevation: 0,
           color: value ?? false ? primaryColor[20] : Colors.white,
           shape: OutlineInputBorder(

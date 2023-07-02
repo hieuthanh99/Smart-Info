@@ -7,12 +7,13 @@ part 'widget_styles.dart';
 
 abstract class AppTheme {
   static final ThemeData appLight = ThemeData(
-    fontFamily: FontFamily.poppins,
+    fontFamily: FontFamily.avertaStdCY,
     brightness: Brightness.light,
     appBarTheme: AppBarTheme(
       color: _appPrimaryColor,
       centerTitle: true,
     ),
+    progressIndicatorTheme: ProgressIndicatorThemeData(color: primaryColor),
     scrollbarTheme: ScrollbarThemeData(thickness: MaterialStateProperty.all(0)),
     colorScheme: _lightColorScheme,
     highlightColor: _appHighLightColor,
@@ -78,7 +79,6 @@ abstract class AppTheme {
     secondaryHeaderColor: _appSecondaryHeaderColor,
     dialogBackgroundColor: _appDialogBackgroundColor,
     hintColor: _appHintColor,
-    // textTheme: _appTextTheme,
     checkboxTheme: CheckboxThemeData(
       fillColor: MaterialStateProperty.resolveWith<Color?>(
           (Set<MaterialState> states) {
