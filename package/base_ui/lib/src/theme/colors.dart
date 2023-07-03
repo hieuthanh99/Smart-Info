@@ -1,18 +1,18 @@
 part of 'theme.dart';
 
 const MaterialColor primaryColor = MaterialColor(
-  0xFF006885,
+  0xFF0b13a1,
   <int, Color>{
-    100: Color(0xFF006885),
-    90: Color(0xFF1A7892),
-    80: Color(0xFF33869D),
-    70: Color(0xFF4D96AA),
-    60: Color(0xFF66A4B6),
-    50: Color(0xFF80B4C2),
-    40: Color(0xFF99C3CE),
-    30: Color(0xFFB3D2DB),
-    20: Color(0xFFCCE1E7),
-    10: Color(0xFFE6F0F3),
+    100: Color(0xFF0b13a1),
+    90: Color(0xFF232baa),
+    80: Color(0xFF3c42b4),
+    70: Color(0xFF545abd),
+    60: Color(0xFF6d71c7),
+    50: Color(0xFF8589d0),
+    40: Color(0xFF9da1d9),
+    30: Color(0xFFb6b8e3),
+    20: Color(0xFFced0ec),
+    10: Color(0xFFe7e7f6),
   },
 );
 
@@ -91,12 +91,12 @@ const _appShadowColor = Color(0xff696969);
 const _appSplashColor = Color(0xFFE6F0F3);
 const _appHoverColor = Color(0xFFE6F0F3);
 const _appHighLightColor = Color(0xFFB3D2DB);
+const appBarColor = Color(0xFF5C92C8);
 const _appSecondaryHeaderColor = Color(0xFF33869D);
 const _appToggleableActiveColor = Color(0xFF1A7892);
 const _appPrimaryColor = Color(0xFF006885);
 const _appIndicatorColor = Color(0xFF006885);
 const _appErrorColor = Color(0xFFE93C3C);
-const appBarColor = Color(0xFF5C92C8);
 
 const ColorScheme _lightColorScheme = ColorScheme(
   brightness: Brightness.light,
@@ -111,7 +111,6 @@ const ColorScheme _lightColorScheme = ColorScheme(
   surfaceVariant: Color(0xfffdf9ee),
   onInverseSurface: Color(0xfff5f5f5),
   outline: Color(0xff62625c),
-
   onTertiaryContainer: Color(0xFF006885),
   primary: Color(0xFF006885),
   onSecondaryContainer: Color(0xFF1A7892),
@@ -122,7 +121,6 @@ const ColorScheme _lightColorScheme = ColorScheme(
   onSurface: Color(0xFF4D96AA),
   shadow: Color(0xFF4D96AA),
   onPrimary: Color(0xFFFFFFFF),
-
   errorContainer: Color(0xFFFF6262),
   error: Color(0xFFE93C3C),
   inversePrimary: Color(0xFF33869D),
@@ -206,7 +204,7 @@ class AppColors extends ThemeExtension<AppColors> {
     Color? androidGreen,
     Color? white,
     Color? platinum,
-    Color? gainsboro,
+    Color? gainBoro,
     Color? antiFlashWhite,
     Color? lightSilver,
     Color? gray,
@@ -223,34 +221,35 @@ class AppColors extends ThemeExtension<AppColors> {
     Color? divider,
   }) =>
       AppColors(
-          red: red ?? red,
-          colorTime: colorTime ?? colorTime,
-          orangeYellow: orangeYellow ?? orangeYellow,
-          beer: beer ?? beer,
-          richElectricBlue: richElectricBlue ?? richElectricBlue,
-          seaBlue: seaBlue ?? seaBlue,
-          batteryChargedBlue: batteryChargedBlue ?? batteryChargedBlue,
-          skyBlue: skyBlue ?? skyBlue,
-          androidGreen: androidGreen ?? androidGreen,
-          white: white ?? white,
-          platinum: platinum ?? platinum,
-          gainsboro: gainsboro ?? gainsboro,
-          antiFlashWhite: antiFlashWhite ?? antiFlashWhite,
-          lightSilver: lightSilver ?? lightSilver,
-          gray: gray ?? gray,
-          romanSilver: romanSilver ?? romanSilver,
-          darkCharcoal: darkCharcoal ?? darkCharcoal,
-          eerieBlack: eerieBlack ?? eerieBlack,
-          black: black ?? black,
-          transparent: transparent ?? transparent,
-          title: title ?? title,
-          deepBrown: deepBrown ?? deepBrown,
-          btnFace: btnFace ?? btnFace,
-          btnGoo: btnFace ?? btnGoo,
-          btnPhone: btnFace ?? btnPhone,
-          btnNextShadown1: btnNextShadown1 ?? btnNextShadown1,
-          btnNextShadown2: btnNextShadown2 ?? btnNextShadown2,
-          divider: divider ?? divider);
+        red: red ?? red,
+        colorTime: colorTime ?? colorTime,
+        orangeYellow: orangeYellow ?? orangeYellow,
+        beer: beer ?? beer,
+        richElectricBlue: richElectricBlue ?? richElectricBlue,
+        seaBlue: seaBlue ?? seaBlue,
+        batteryChargedBlue: batteryChargedBlue ?? batteryChargedBlue,
+        skyBlue: skyBlue ?? skyBlue,
+        androidGreen: androidGreen ?? androidGreen,
+        white: white ?? white,
+        platinum: platinum ?? platinum,
+        gainsboro: gainsboro ?? gainsboro,
+        antiFlashWhite: antiFlashWhite ?? antiFlashWhite,
+        lightSilver: lightSilver ?? lightSilver,
+        gray: gray ?? gray,
+        romanSilver: romanSilver ?? romanSilver,
+        darkCharcoal: darkCharcoal ?? darkCharcoal,
+        eerieBlack: eerieBlack ?? eerieBlack,
+        black: black ?? black,
+        transparent: transparent ?? transparent,
+        title: title ?? title,
+        deepBrown: deepBrown ?? deepBrown,
+        btnFace: btnFace ?? btnFace,
+        btnGoo: btnFace ?? btnGoo,
+        btnPhone: btnFace ?? btnPhone,
+        btnNextShadown1: btnNextShadown1 ?? btnNextShadown1,
+        btnNextShadown2: btnNextShadown2 ?? btnNextShadown2,
+        divider: divider ?? divider,
+      );
 
   @override
   AppColors lerp(ThemeExtension<AppColors>? other, double t) {
@@ -294,32 +293,33 @@ class AppColors extends ThemeExtension<AppColors> {
   }
 
   static const AppColors light = AppColors(
-      red: Color(0xffff0000),
-      colorTime: Color(0xff8B929A),
-      orangeYellow: Color(0xfff2b92a),
-      beer: Color(0xffef8720),
-      richElectricBlue: Color(0xFF006885),
-      seaBlue: Color(0xff006f96),
-      batteryChargedBlue: Color(0xFF1A7892),
-      skyBlue: Color(0xff65e0db),
-      androidGreen: Color(0xffafc536),
-      white: Color(0xffffffff),
-      platinum: Color(0xffe4e4e4),
-      gainsboro: Color(0xffdedede),
-      antiFlashWhite: Color(0xfff1f1f5),
-      lightSilver: Color(0xffd7d7d7),
-      gray: Color(0xffb4bbc5),
-      romanSilver: Color(0xff8b929a),
-      darkCharcoal: Color(0xff323232),
-      eerieBlack: Color(0xff1e1e1e),
-      black: Color(0xff000000),
-      transparent: Color(0x00000000),
-      btnFace: Color(0xff007AFF),
-      btnGoo: Color(0xffE74C3C),
-      btnPhone: Color(0xff17A2B8),
-      btnNextShadown1: Color(0xFF1A7892),
-      btnNextShadown2: Color(0xff65E0DB),
-      deepBrown: Color.fromARGB(80, 60, 58, 58),
-      title: Color(0xff1E1E1E),
-      divider: Color(0xffDEDEDE));
+    red: Color(0xffff0000),
+    colorTime: Color(0xff8B929A),
+    orangeYellow: Color(0xfff2b92a),
+    beer: Color(0xffef8720),
+    richElectricBlue: Color(0xFF006885),
+    seaBlue: Color(0xff006f96),
+    batteryChargedBlue: Color(0xFF1A7892),
+    skyBlue: Color(0xff65e0db),
+    androidGreen: Color(0xffafc536),
+    white: Color(0xffffffff),
+    platinum: Color(0xffe4e4e4),
+    gainsboro: Color(0xffdedede),
+    antiFlashWhite: Color(0xfff1f1f5),
+    lightSilver: Color(0xffd7d7d7),
+    gray: Color(0xffb4bbc5),
+    romanSilver: Color(0xff8b929a),
+    darkCharcoal: Color(0xff323232),
+    eerieBlack: Color(0xff1e1e1e),
+    black: Color(0xff000000),
+    transparent: Color(0x00000000),
+    btnFace: Color(0xff007AFF),
+    btnGoo: Color(0xffE74C3C),
+    btnPhone: Color(0xff17A2B8),
+    btnNextShadown1: Color(0xFF1A7892),
+    btnNextShadown2: Color(0xff65E0DB),
+    deepBrown: Color.fromARGB(80, 60, 58, 58),
+    title: Color(0xff1E1E1E),
+    divider: Color(0xffDEDEDE),
+  );
 }

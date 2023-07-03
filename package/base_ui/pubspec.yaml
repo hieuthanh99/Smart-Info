@@ -38,17 +38,9 @@ dev_dependencies:
 
 flutter:
   fonts:
-    - family: Montserrat
+    - family: Averta_Std_CY
       fonts:
-        - asset: assets/fonts/Montserrat-Medium.ttf
-
-    - family: Poppins
-      fonts:
-        - asset: assets/fonts/poppins/Poppins-Medium.ttf
-
-    - family: Nunito_Sans
-      fonts:
-        - asset: assets/fonts/nutritosans/NunitoSans_10pt-Medium.ttf
+        - asset: assets/fonts/averta_std_cy/Intelligent Design - AvertaStdCY-Regular_3.otf
 
   assets:
     - assets/icons/

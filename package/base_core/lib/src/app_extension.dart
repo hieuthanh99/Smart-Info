@@ -2,12 +2,6 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:path/path.dart' as path;
 
-extension AppLocalizationsExtension on BuildContext {
-  void hideKeyboard() {
-    FocusManager.instance.primaryFocus?.unfocus();
-  }
-}
-
 extension StringExtension on String {
   String get toFirstCapital {
     return '${this[0].toUpperCase()}${substring(1).toLowerCase()}';

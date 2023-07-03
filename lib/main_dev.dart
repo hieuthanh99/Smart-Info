@@ -4,7 +4,6 @@ import 'package:chucker_flutter/chucker_flutter.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:smart_info/router/app_pages.dart';
 import 'di.dart';
 import 'l10n/service/language_service.dart';
@@ -44,7 +43,7 @@ class _MyAppState extends State<MyApp> {
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
       locale: langService.locale,
-      initialRoute: '',
+      initialRoute: getPage.splash,
     );
   }
 

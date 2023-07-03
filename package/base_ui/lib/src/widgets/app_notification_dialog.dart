@@ -1,8 +1,7 @@
+import 'package:base_ui/gen/assets.gen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:base_ui/src/theme/theme.dart';
-
-import '../../gen/assets.gen.dart';
 
 class SuccessDialog extends StatelessWidget {
   const SuccessDialog({Key? key, this.msg}) : super(key: key);
@@ -14,7 +13,7 @@ class SuccessDialog extends StatelessWidget {
     return CustomNotificationDialog(
       suffixIcon: SvgPicture.asset(Assets.icons.icSuccess),
       child: Text(
-        msg ?? "",
+        msg ?? '',
         style: AppTextStyle.poppins_400_18.copyWith(
           color: success,
         ),
@@ -33,7 +32,7 @@ class ErrorDialog extends StatelessWidget {
     return CustomNotificationDialog(
       suffixIcon: SvgPicture.asset(Assets.icons.icError),
       child: Text(
-        msg ?? "",
+        msg ?? '',
         style: AppTextStyle.poppins_400_18.copyWith(
           color: error,
         ),
@@ -52,7 +51,7 @@ class WarningDialog extends StatelessWidget {
     return CustomNotificationDialog(
       suffixIcon: SvgPicture.asset(Assets.icons.icWarning),
       child: Text(
-        msg ?? "",
+        msg ?? '',
         style: AppTextStyle.poppins_400_18.copyWith(
           color: warning,
         ),

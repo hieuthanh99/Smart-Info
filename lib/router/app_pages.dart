@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:smart_info/di.dart';
+import 'package:smart_info/features/splash/presentation/screens/splash_screen.dart';
 
 import 'app_routes.dart';
 
@@ -8,7 +9,13 @@ final getPage = getIt.get<AppPages>();
 
 class AppPages extends AppRoutes {
   @override
-  List<GetPage> get routes => <GetPage>[];
+  List<GetPage> get routes => <GetPage>[
+        _getPage(
+          name: splash,
+          args: String,
+          page: () => const SplashScreen(),
+        ),
+      ];
 
   /// Here are some commonly used attributes,
   /// if you need more you can add them below
@@ -47,4 +54,7 @@ class AppPages extends AppRoutes {
       /** Additional attributes*/
     );
   }
+
+  @override
+  String get splash => '/splash';
 }
